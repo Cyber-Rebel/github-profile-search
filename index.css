@@ -1,0 +1,123 @@
+html,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* b    ackground-color: #1A1B1F; */
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,#0E141A,#0E1820,#121d25, #291956,#3A256F);
+/* text-emphasis-color: white; */
+    color:aliceblue,
+
+
+}
+h1{
+    color: azure;
+    text-align: center; 
+}
+#head{
+    margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+}
+.imagegit{
+    width: 60px ;
+    height: 60ox;
+    /* background-position:center; */
+    
+    /* background-image: o; */
+}
+.ch{
+     padding: 10px;
+     width: 20%;
+     background-color: white;
+}
+.sub{
+    padding: 10px;
+    width: 7%;
+    background-color:   black;
+    color: wheat;
+}
+form{
+     text-align: center;
+}
+.left{
+    margin: 60px;
+    /* background-color: rgb(26, 70, 109); */
+    width: 20%;
+    /* height: 80%; */
+    /* padding: 209px; */
+}
+.profilepic{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 50%;
+}
+.hei{
+    color:white;
+    text-align: center;
+}
+.crazy{
+    display: flex;
+    height: 80%;
+    gap: 10%;
+
+}
+.center{
+    width: 40%;
+    height: 650px;
+    margin-top: 80px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex; 
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+ flex-direction: column;
+ gap: 2%;
+}
+.container {
+    background-color: #1e1e2f;
+    color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    
+    box-shadow: 0 6px 25px rgba(108, 92, 231, 0.6);
+}
+
+.container p, .container b {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.4;
+    word-break: break-word;
+}
+.container{
+    width: 100%;
+ flex-direction: column;
+
+}
+.container p{
+    font-size: large;
+}
+.avtar{
+    width: 100%;
+    height: 100% ;
+    background-color: transparent;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
