@@ -121,3 +121,89 @@ form{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    #head {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .imagegit {
+        width: 40px;
+        height: 40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 40px;
+    }
+
+    .ch {
+        width: 90%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .sub {
+        width: 50%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .crazy {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    
+    .left, .center {
+        width: 95%;
+        margin: 0 auto;
+      
+        
+    }
+    .profilepic {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        /* margin-top: 10px; */
+    }
+
+    .avtar {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+         /* margin-top: 10; */
+    }
+
+    .hei {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .container p, .container b {
+        font-size: 16px;
+    }
+
+    .link {
+        word-wrap: break-word;
+    }
+}
